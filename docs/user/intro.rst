@@ -1,45 +1,45 @@
 .. _introduction:
 
-Introduction
+Увод
 ============
 
-Philosophy
+Филозофија
 ----------
 
-Requests was developed with a few :pep:`20` idioms in mind.
+Библиотека Requests je изграђена имајући на уму неколико фраза из чувеног :pep:`20`.
 
 
-#. Beautiful is better than ugly.
-#. Explicit is better than implicit.
-#. Simple is better than complex.
-#. Complex is better than complicated.
-#. Readability counts.
+#. Beautiful is better than ugly. [Боље лијепо него ружно.]
+#. Explicit is better than implicit. [Непосредно је боље од посредног.]
+#. Simple is better than complex. [Просто је боље од сложеног.]
+#. Complex is better than complicated. [Сложено је боље од замршеног.]
+#. Readability counts. [Читљивост је битна.]
 
-All contributions to Requests should keep these important rules in mind.
+Сви доприноси Request-у би требали имати у виду дата правила.
 
 .. _`apache2`:
 
 Apache2 License
 ---------------
 
-A large number of open source projects you find today are `GPL Licensed`_.
-While the GPL has its time and place, it should most certainly not be your
-go-to license for your next open source project.
+Велики број пројеката са доступним изворним кодом које (енг. open source) се можемо пронаћи
+под „GPL дозволом”. Иако GPL има своје „мјесто под Сунцем”, ипак, сасвим сигурно, 
+ваш сљедећи пројекат са доступним изворним кодом не би требао ићи под GPL.
 
-A project that is released as GPL cannot be used in any commercial product
-without the product itself also being offered as open source.
+GPL-пројекат не може бити кориштен у неком комерцијалном софтверу, а да сам
+софтвер не буде такође понуђен као производ са доступним изворним кодом.
 
-The MIT, BSD, ISC, and Apache2 licenses are great alternatives to the GPL
-that allow your open-source software to be used freely in proprietary,
-closed-source software.
+MIT, BSD, ISC и Apache2 дозволе су добре замјене за GPL, пошто дозвољавају да се
+ваш софтвер са досупним изворним кодом, без икаквих ограничења, користи у
+власничком софтверу, чији изворни код није доступан.
 
-Requests is released under terms of `Apache2 License`_.
+Requests се издаје под условима `Apache2 License`_.
 
 .. _`GPL Licensed`: http://www.opensource.org/licenses/gpl-license.php
 .. _`Apache2 License`: http://opensource.org/licenses/Apache-2.0
 
 
-Requests License
+Requests дозвола
 ----------------
 
     .. include:: ../../LICENSE
