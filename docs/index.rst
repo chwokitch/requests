@@ -3,18 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Requests: HTTP for Humans
-=========================
+Requests: хумани HTTP
+======================
 
-Release v\ |version|. (:ref:`Installation <install>`)
+Издање v\ |version|. (:ref:`Installation <install>`)
 
-Requests is an :ref:`Apache2 Licensed <apache2>` HTTP library, written in Python, for human beings.
+Requests је :ref:`Apache2 Licensed <apache2>` HTTP библиотека, написана на програмском језику Python, за обичне смртнике.
 
-Python's standard **urllib2** module provides most of
-the HTTP capabilities you need, but the API is thoroughly **broken**.
-It was built for a different time — and a different web. It requires an *enormous* amount of work (even method overrides) to perform the simplest of tasks.
+Python-ов стандардни **urllib2** модул обезбјеђује већину онога што вам је потребно у вези са HTTP-ом, 
+али је API поприлично **џомбаст**.
+Направљен је за друго вријеме и другачији веб. Захтјева *претјерану* количину рада (па и уз „overrides”) за
+обављање најпростијих задатака.
 
-Things shouldn’t be this way. Not in Python.
+Ствари не би требале да су такве... бар не кад је Python у питању.
 
 ::
 
@@ -30,13 +31,15 @@ Things shouldn’t be this way. Not in Python.
     >>> r.json()
     {u'private_gists': 419, u'total_private_repos': 77, ...}
 
-See `similar code, without Requests <https://gist.github.com/973705>`_.
+Погледати `сличан код, који не користи Requests <https://gist.github.com/973705>`_.
 
-Requests takes all of the work out of Python HTTP/1.1 — making your integration with web services seamless. There's no need to manually add query strings to your URLs, or to form-encode your POST data. Keep-alive and HTTP connection pooling are 100%  automatic, powered by `urllib3 <https://github.com/shazow/urllib3>`_, which is embedded within Requests.
+Requests износи сав посао изван HTTP/1.1 — чинећи вашу интеграцију са веб сервисима seamless. Нема потребе за
+мануелним додавањем (знаковних) ниски захтјева вашим URL-овима, или да form-encode ваше POST податке. 
+Keep-alive и обједињавање HTTP конекција је 100% аутоматско, потпомогнуто библиотеком `urllib3 <https://github.com/shazow/urllib3>`_, који је усађен у Requests.
 
 
-Testimonials
-------------
+Свједочења
+----------
 
 Her Majesty's Government, Amazon, Google, Twilio, Mozilla, Heroku, PayPal, NPR, Obama for America, Transifex, Native Instruments, The Washington Post, Twitter, SoundCloud, Kippt, Readability, and Federal US Institutions use Requests internally. It has been downloaded over 3,000,000 times from PyPI.
 
@@ -62,27 +65,26 @@ Feature Support
 
 Requests is ready for today's web.
 
-- International Domains and URLs
+- Међународни домени и URL-ови
 - Keep-Alive & Connection Pooling
-- Sessions with Cookie Persistence
-- Browser-style SSL Verification
+- Сесије уз Cookie Persistence
+- Прегледнички (browser-ски) стил SSL верификације
 - Basic/Digest Authentication
-- Elegant Key/Value Cookies
-- Automatic Decompression
+- Елегантни Кључ/Вриједност Колачићи
+- Аутоматска декомпресија
 - Unicode Response Bodies
-- Multipart File Uploads
+- Отпремање вишедјелних датотека
 - Connection Timeouts
 - ``.netrc`` support
 - Python 2.6—3.3
 - Thread-safe.
 
 
-User Guide
-----------
+Водич за кориснике
+------------------
 
-This part of the documentation, which is mostly prose, begins with some
-background information about Requests, then focuses on step-by-step
-instructions for getting the most out of Requests.
+Овај, углавном прозаични, дио документације приказује неке од основих могућности библиотеке Requests, 
+а онда се постепеним, корак-по-корак упутствима, фокусира за максимално искоришћавање могћности Requests-a.
 
 .. toctree::
    :maxdepth: 2
@@ -94,11 +96,11 @@ instructions for getting the most out of Requests.
    user/authentication
 
 
-Community Guide
------------------
+Водич за заједницу
+------------------
 
-This part of the documentation, which is mostly prose, details the
-Requests ecosystem and community.
+Овај, углавном прозаични, дио документације, разматра детаље 
+Requests заједнице и својеврсног екосистема.
 
 .. toctree::
    :maxdepth: 1
@@ -108,11 +110,11 @@ Requests ecosystem and community.
    community/support
    community/updates
 
-API Documentation
+API документација
 -----------------
 
-If you are looking for information on a specific function, class or method,
-this part of the documentation is for you.
+Уколико тражите неке информације о конкретној функцији, класи или методу,
+овај дио документације је за вас.
 
 .. toctree::
    :maxdepth: 2
@@ -120,11 +122,10 @@ this part of the documentation is for you.
    api
 
 
-Contributor Guide
------------------
+Водич за сараднике
+------------------
 
-If you want to contribute to the project, this part of the documentation is for
-you.
+Ако желите допринијети пројекту, овај дио документације је за вас.
 
 .. toctree::
    :maxdepth: 1
